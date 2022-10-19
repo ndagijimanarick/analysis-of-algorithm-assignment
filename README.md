@@ -1,1 +1,5 @@
-# analysis-of-algorithm-assignment
+GROUP MEMBERS\
+NDAGIJMANA Eric  221017549\
+HIRWA Fidele     221009091\
+UWERA Divine     221017781\
+ABUNGANIRABAWE Merchior  221006377
