@@ -40,7 +40,7 @@ public:
  				 return tail;
 }
 	//Adding numbers into our linked list randomly
-	void insertRandomly(int size){
+	void insertRandomly(int size){     
 	struct Node *newNode;
     newNode=(struct Node*)malloc(sizeof(struct Node));
 	newNode -> data=size;
@@ -124,7 +124,7 @@ void printList(){
  
  //searching for a given number
      search(int val) {
- 							 Node * temp = head;
+ 			 Node * temp = head;
  			 while (temp != NULL) {
    			 if (temp -> data == val) return true;
    			 
@@ -193,7 +193,7 @@ void printList(){
    			 // Duplicate Found
    					 if (temp -> data == temp -> next -> data) {
    	   // DUplicate Removed
-    					  temp -> next = temp -> next -> next;
+    		  temp -> next = temp -> next -> next;
     } else {
       // No Duplicate Present
       temp = temp -> next;
@@ -214,8 +214,6 @@ void printList(){
       if (min -> data > r -> data) min = r;
       r = r -> next;
     }
-
-
     int x = temp -> data;
     temp -> data = min -> data;
     min -> data = x;
@@ -266,3 +264,9 @@ int main(){
 	obj2.printList();
 	return 0;
 }
+//Time complexity of inserting at the front of linked list is O(1).
+//Time complexity of inserting at the end of linked list is O(n).
+//Time complexity of searching for a given number is O(n)
+//Time complexity of Deleting a given number is O(1).
+//Time complexity for reversing the list is O(n)
+//Time complexity for remove consecutive duplicates is O(n^2) 
