@@ -18,7 +18,7 @@ public:
     SinglyLinkedList(){
      Node *head=NULL;
      Node *tail=NULL;
-     cout<<"Linked  list created!!!\n\n";
+     cout<<"Empty  list created!!!\n\n";
 	}
 	//copy constructor
       //SinglyLinkedList(const SinglyLinkedList & obj1) {
@@ -241,7 +241,7 @@ int main(){
 	obj2.printList();
 	
 	obj2.deleteNumber(); //delete item at a given position
-	cout<<"list after deteting an item:\n";
+	cout<<"list after deleting an item:\n";
 	obj2.printList();
 	
 	//here we are on reversing the list
